@@ -4,8 +4,6 @@ const db = require('./config')
 const route = require("./routes")
 require('dotenv').config()
 
-// app.use("/images", express.static(path.join(__dirname, "public/images")));
-
 //Connect to DB
 db.connect()
 
